@@ -1,0 +1,12 @@
+st1 = input("ENTER STRING 1")
+st2 = input("ENTER STRING 2")
+print("STRING 1 = ", st1)
+print("STRING 2 = ", st2)
+print("Length of STRING 1 = ", len(st1)) #Length of the string
+st3 = st1
+print("STRING 3 = ", st3)
+print("Reverse of STRING 1 = ", st1[::-1]) #Reverse the string
+print("CONCAT OF STRING 1 and STRING 2", st1 + st2) #String concatenation
+print((st1 == st2)) #String equality checking
+print("Upper Case = ", st1.upper()) #Convert string to UPPER case
+print("Lower Case = ", st2.lower()) #Convert string to lower case
